@@ -1,0 +1,75 @@
+body {
+  background: linear-gradient(135deg, #2c3e50, #37967a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Comic Sans MS', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+table {
+  backdrop-filter: blur(15px);
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 40px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.3);
+  padding: 1em;
+  border-collapse: separate;
+  border-spacing: 10px;
+  transform: rotate(-1deg);
+}
+
+tr {
+  height: 12vh;
+}
+
+td {
+  width: 12vw;
+  height: 12vw;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font-size: 1.8em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+td:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+  transform: scale(1.05);
+}
+
+#inputBox {
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #5bb6a4;
+  text-align: right;
+  width: 100%;
+  font-size: 2.2em;
+  padding: 1em;
+  border: none;
+  border-radius: 20px;
+  box-sizing: border-box;
+  margin-bottom: 1em;
+  box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.digtButton {
+  background: linear-gradient(145deg, #a3e4d7, #5bb6a4);
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.operatorButton {
+  background: linear-gradient(145deg, #f39c12, #e67e22);
+  color: white;
+  font-weight: bold;
+}
+
+.ACButtom {
+  background: linear-gradient(145deg, #e74c3c, #c0392b);
+  color: white;
+  font-weight: bold;
+}
+
